@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+   <link rel="stylesheet" href="styles/male-body.css">
+   
+</head>
+<body>
+    <header class="justify-content-between align-items-center p-3 d-none d-md-flex">
+        <h1 class="ms-5 text-dark">ZEUSS<sup class="fs-5">&reg;</sup></h1>
+        <nav>
+            <a href="#" class="me-3 home-links">For Him</a>
+            <a href="#" class="me-3 home-links">For Her</a>
+            <a href="#" class="me-3 home-links">Contact</a>
+        </nav>
+        <button class="btn btn-transparent btn-outline-dark me-5 rounded-pill border-2 log-in-btn">Log in</button>
+    </header>
+
+     <!-- before md -->
+
+     <header class="d-flex d-md-none justify-content-between align-items-center bg-light p-3 headertwo" style="position:fixed;top:0;width:97%">
+        <h1 class="ms-5 text-dark">ZEUSS<sup class="fs-5">&reg;</sup></h1>
+        <div class="hamburger-menu" id="hamburgerMenu">
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+    <div class="overlay d-md-none" id="overlay">
+
+        <nav class="nav-menu" id="navMenu">
+             <!-- Navigation menu -->
+            <ul>
+                <li class="fs-1"><a href="#">Blog</a></li>
+                <li class="fs-1 "><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Center image with arrow -->
+        <div class="center-image">
+            <img src="asset/hamburger-handsome.webp" alt="Center Image" class="w-50" >
+            <svg class="center-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50">
+                <path d="M50,0 Q50,25 50,50" stroke="#d79579" stroke-width="2" fill="none"/>
+                <polygon points="45,45 50,50 55,45" fill="#d79579"/>
+            </svg>
+        </div>
+    
+        <!-- Login button -->
+        <button class="login-button">Log In</button>
+    </div>
+
+    
+   
+    <div class="floating-form" id="floatingForm">
+        <form>
+            <h3>Contact Us</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <input id="message" class="textareamessage" name="message" required></input>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <!-- all page needing code end -->
+
+    <div class="content-section d-block d-md-flex justify-content-between align-items-center">  
+        <div class="left-side">
+            <h1 class="big-heading">YOUR PATH TO A<span style="color:#d79579">&nbsp;HEALTHIER&nbsp;</span>YOU</h1>
+            <h3 class="small-heading">Compounded Semaglutide & Tirzepatide</h3>
+            <ul class="links-list">
+                <li class="p-1 main-list "><img src="asset/small-image1.jpg" class="list-small-img" width="50px"   height="50px" alt=""><b>Medication included</b></li>
+                <li class="p-1 main-list"><img src="asset/small-image1.jpg" class="list-small-img" width="50px"   height="50px" alt=""><b>Same price at every dose</b></li>
+                <li class="p-1 main-list"><img src="asset/small-image1.jpg" class="list-small-img" width="50px"   height="50px" alt=""><b>Effective, Potency-Tested Meds</b></li>
+            </ul>
+            <button class="action-button   rounded-pill  ">Learn More</button>
+        </div>
+        <div class="right-side">
+           <div class="video-container ">
+            <video class="styled-video" autoplay muted loop>
+                <source src="asset/clip-men-body-one.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+           </div>
+        </div>
+    </div>
+
+    <!-- <img src="asset/sticky-notes-svgrepo-com.svg" class="sticky-svg" width="50px" height="50px" alt=""> -->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container mt-5">
+        <table class="table ">
+            <thead>
+                <tr>
+                    <th scope="col" colspan="5" class="competition-heading fs-3">Feature</th>
+                    <th scope="col" class="competition-heading fs-3" style="color:#d79579;border:3px solid #f7c3ac;">&nbsp;Zeuss&nbsp;</th>
+                    <th scope="col" class="competition-heading fs-3"  >Competitor</th>
+
+                </tr>
+            </thead>
+            <br>
+            <tbody>
+                <tr>
+                    <td class="competition-table comp-head" colspan="5" >Medications tested for potency and quality</td>
+                    <td class="competition-table yes" style="background-color:lightgreen;color:darkgreen;text-align: center;">Yes</td>
+                    <td class="competition-table no" style="background-color:#f7c3ac;color:red;text-align: center;">No</td>
+                    
+                </tr>
+                
+                <tr>
+                    <td class="competition-table comp-head"  colspan="5" >Free overnight shipping</td>
+                    <td class="competition-table yes" style="background-color:lightgreen;color:darkgreen;text-align: center;">Yes</td>
+                    <td class="competition-table no" style="background-color:#f7c3ac;color:red;text-align: center;">No</td>
+                </tr>
+                <tr>
+                    <td class="competition-table comp-head" colspan="5" >Exclusive partnerships with top-tier pharmacies</td>
+                    <td class="competition-table yes" style="background-color:lightgreen;color:darkgreen;text-align: center;">Yes</td>
+                    <td class="competition-table no" style="background-color:#f7c3ac;color:red;text-align: center;">No</td>
+                </tr>
+                <tr>
+                    <td class="competition-table comp-head" colspan="5" >24/7 customer support</td>
+                    <td class="competition-table yes" style="background-color:lightgreen;color:darkgreen;text-align: center;">Yes</td>
+                    <td class="competition-table no" style="background-color:#f7c3ac;color:red;text-align: center;">No</td>
+                </tr>
+                <tr>
+                    <td class="competition-table comp-head" colspan="5" >Affordable pricing</td>
+                    <td class="competition-table yes" style="background-color:lightgreen;color:darkgreen;text-align: center;">Yes</td>
+                    <td class="competition-table no" style="background-color:#f7c3ac;color:red;text-align: center;">No</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+   
+
+    <h1 style="font-size: 4rem;" class="ms-5">Benefits of <span style="color:#d79579;">GLP-1s</span></h1>
+
+
+    <div class="container mt-5">
+        <div class="scrollable-container  d-flex overflow-auto">
+            <div class="card me-4" style="min-width: 200px;">
+                <img src="asset/glp1-image1.webp" class="card-img-top" alt="Image 1">
+                <div class="card-body">
+                    <h5 class="card-title">Appettite Suppression</h5>
+                </div>
+            </div>
+            <div class="card me-4" style="min-width: 200px;">
+                <img src="asset/glp1-image2.webp" class="card-img-top" alt="Image 2">
+                <div class="card-body">
+                    <h5 class="card-title">Proven Weight Lose</h5>
+                </div>
+            </div>
+            <div class="card me-4" style="min-width: 200px;">
+                <img src="asset/glp1-image3.webp" class="card-img-top" alt="Image 3">
+                <div class="card-body">
+                    <h5 class="card-title">Improved Blood Sugar Control</h5>
+                </div>
+            </div>
+            <div class="card me-4" style="min-width: 200px;">
+                <img src="asset/glp1-image4.webp" class="card-img-top" alt="Image 4">
+                <div class="card-body">
+                    <h5 class="card-title">Increased Energy Levels</h5>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    
+        <video  autoplay muted loop>
+            <source src="asset/clip-men-body-one.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+   
+
+
+   
+
+    <div class="container">
+        <div class="row">
+            <div class="col align-self-center p-5">
+
+                <h1 class="display-1">
+                    Let's find out<span style="color:#d79579">&nbsp;how it works</span>
+                </h1>
+
+            </div>
+
+            <div class="col">
+                 
+                <div class="container mt-5">
+                    <div class="accordion" id="stepsAccordion">
+                        <!-- Step 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <span class="rounded-pill" style="border:2px solid #d79579;color:#d79579;padding:0.5rem;">Step 1</span>&nbsp; Choose Your Plan
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#stepsAccordion">
+                                <div class="accordion-body">
+                                    <p>Select the plan that suits you best, with the option to switch later if advised by a doctor or as needed. Then, fill out the health questionnaire to move forward.</p>
+                                    <video autoplay muted class="w-100" >
+                                        <source src="asset/plan-videos-in-malebody.webm" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Step 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header " id="headingTwo" >
+                               
+                                <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <span class="rounded-pill " style="border:2px solid #d79579;color:#d79579;padding:0.5rem;">Step 2</span>
+                                   &nbsp;Schedule a Telehealth Appointment
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#stepsAccordion">
+                                <div class="accordion-body">
+                                    <p>After you join, we ensure fast availability to meet your doctor, ranging from the same day to no longer than a few days. During your appointment, your doctor will determine if you qualify for the treatment.</p>
+                                    <video autoplay muted class="w-100" >
+                                        <source src="asset/plan-videos2-in-malebody.webm" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Step 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fs-5 "type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <span class="rounded-pill " style="border:2px solid #d79579;color:#d79579;padding:0.5rem">Step 3</span>&nbsp; Medication Shipment
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#stepsAccordion">
+                                <div class="accordion-body">
+                                    <p>Once prescribed, our partner pharmacy will dispatch your medication within 2-4 days. To ensure fast delivery, we offer complimentary free overnight shipping.</p>
+                                    <video autoplay muted class="w-100" >
+                                        <source src="asset/plan-videos3-in-malebody.webm" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Step 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <span class="rounded-pill" style="border:2px solid #d79579;color:#d79579;padding:0.5rem;">Step 4</span>&nbsp; Continuous Care and Support
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#stepsAccordion">
+                                <div class="accordion-body">
+                                    <p>Our dedicated clinical and support team will closely monitor your progress, ensuring your treatment is effective and addressing any concerns you may have.</p>
+                                    <video autoplay muted class="w-100" >
+                                        <source src="asset/plan-videos4-in-malebody.webm" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+               
+            
+
+            </div>
+
+        </div>
+    </div>
+    <!-- ḍont come here -->
+
+    <button class="chat-button">
+        <img src="asset/chat-right-heart-fill.svg" alt="Chat Icon" class="chat-icon">
+        Chat with us
+    </button>
+
+    <button class="message-button">
+        <img src="asset/chat-square-fill.svg" alt="Message Icon" class="message-icon">
+    </button>
+    
+
+    <!-- script script script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="scripts/male-body.js"
+    ></script>
+
+</body>
+</html> 
