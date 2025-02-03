@@ -292,6 +292,13 @@ header {
  .overlay{
     width:100%;
  }
+    
+.floating-form
+    {
+       right:0px;
+    }
+   
+
 }
     
 
